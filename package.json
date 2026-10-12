@@ -1,0 +1,9 @@
+{
+  "name": "stefevents-photobooth-ia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24 <25" },
+  "scripts": { "start": "node main.mjs", "test": "node --test test/*.test.mjs" },
+  "dependencies": { "mongodb": "6.20.0" }
+}
